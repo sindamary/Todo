@@ -108,3 +108,12 @@ body {
 .left-nav-list>li.selected {
     color: var(--primary-color);
 }
+
+@media(max-width: 850px) {
+    .left-nav {
+        transform: translateX(100%);
+    }
+    .left-nav.open {
+        transform: translateX(0%);
+    }
+}
